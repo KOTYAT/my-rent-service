@@ -24,7 +24,31 @@ export const offersList: OffersList[] = [
     isPremium: true,
     rating: 4.8,
     previewImage: "/img/apartment-03.jpg"
-}, {
+}, 
+{
+  id: "11",
+  title: "Quality Flat in Montmartre",
+  type: "apartment",
+  price: 175,
+  city: { name: "Paris", location: { latitude: 48.8584, longitude: 2.2945, zoom: 12 } },
+  location: { latitude: 48.8867, longitude: 2.3431, zoom: 12 },
+  isFavorite: false,
+  isPremium: false,
+  rating: 4.6,
+  previewImage: "/img/paris-montmartre.jpg"
+},
+{
+  id: "12",
+  title: "Luxury Haussmann Apartment",
+  type: "apartment",
+  price: 400,
+  city: { name: "Paris", location: { latitude: 48.8584, longitude: 2.2945, zoom: 12 } },
+  location: { latitude: 48.8721, longitude: 2.3199, zoom: 12 },
+  isFavorite: true,
+  isPremium: true,
+  rating: 5.0,
+  previewImage: "/img/apartment-03.jpg"
+},{
     id: "2",
     title: "Cozy Cottage by the Lake",
     type: "house",

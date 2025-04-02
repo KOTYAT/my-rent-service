@@ -26,12 +26,56 @@ location: {
     bedrooms: 2,
     goods: ["Wi-Fi", "Air conditioning", "Kitchen", "TV"],
     host: {
-      name: "Elyumusa Njobvu",
+      name: "Almaz Nizamiev",
       avatarUrl: "/img/avatar-max.jpg",
       isPro: true
     },
     images: ["/img/apartment-03.jpg"],
     maxAdults: 4,
+    previewImage: "/img/apartment-03.jpg"
+  },
+  {
+    id: "11",
+    title: "Artist's Flat in Montmartre",
+    type: "apartment",
+    price: 175,
+    city: { name: "Paris", location: { latitude: 48.8584, longitude: 2.2945, zoom: 12 } },
+    location: { latitude: 48.8867, longitude: 2.3431, zoom: 12 },
+    isFavorite: false,
+    isPremium: false,
+    rating: 4.6,
+    description: "Bohemian studio with rooftop views, ideal for creatives.",
+    bedrooms: 1,
+    goods: ["Wi-Fi", "Skylight", "Art supplies", "Record player"],
+    host: { 
+      name: "Luc Moreau", 
+      avatarUrl: "/img/avatar.svg", 
+      isPro: false 
+    },
+    images: ["/img/paris-montmartre.jpg", "/img/apartment-02.jpg"],
+    maxAdults: 1,
+    previewImage: "/img/paris-montmartre.jpg"
+  },
+  {
+    id: "12",
+    title: "Luxury Haussmann Apartment",
+    type: "apartment",
+    price: 400,
+    city: { name: "Paris", location: { latitude: 48.8584, longitude: 2.2945, zoom: 12 } },
+    location: { latitude: 48.8721, longitude: 2.3199, zoom: 12 },
+    isFavorite: true,
+    isPremium: true,
+    rating: 5.0,
+    description: "Ornate 19th-century apartment with marble fireplaces and parquet floors.",
+    bedrooms: 3,
+    goods: ["Wi-Fi", "Chef's kitchen", "Elevator", "Walk-in closet"],
+    host: { 
+      name: "Élodie Laurent", 
+      avatarUrl: "/img/avatar.svg", 
+      isPro: true 
+    },
+    images: ["/img/apartment-03.jpg"],
+    maxAdults: 5,
     previewImage: "/img/apartment-03.jpg"
   },
   {
@@ -68,6 +112,28 @@ location: {
     previewImage: "/img/apartment-02.jpg"
   },
   {
+    id: "13",
+    title: "EU Quarter Modern Studio",
+    type: "apartment",
+    price: 135,
+    city: { name: "Brussels", location: { latitude: 50.8467, longitude: 4.3525, zoom: 10 } },
+    location: { latitude: 50.8402, longitude: 4.3753, zoom: 10 },
+    isFavorite: true,
+    isPremium: true,
+    rating: 4.7,
+    description: "Sleek studio for professionals, 5 min from European Parliament.",
+    bedrooms: 1,
+    goods: ["Wi-Fi", "Standing desk", "Smart TV", "Gym access"],
+    host: { 
+      name: "Sophie Beaulieu", 
+      avatarUrl: "/img/avatar.svg", 
+      isPro: true 
+    },
+    images: ["/img/apartment-02.jpg", "/img/apartment-01.jpg"],
+    maxAdults: 2,
+    previewImage: "/img/apartment-02.jpg"
+  },
+  {
     id: "3",
     title: "Beachfront Villa with Ocean View",
     type: "villa",
@@ -92,7 +158,7 @@ location: {
     bedrooms: 5,
     goods: ["Private pool", "Wi-Fi", "Jacuzzi", "Beach access"],
     host: {
-      name: "Alice Johnson",
+      name: "Kamilla Johnson",
       avatarUrl: "/img/avatar-angelina.jpg",
       isPro: true
     },
@@ -126,7 +192,7 @@ location: {
     bedrooms: 1,
     goods: ["Wi-Fi", "Kitchen", "Washing machine", "TV"],
     host: {
-      name: "Pieter van Dijk",
+      name: "Peter Nizamiev",
       avatarUrl: "/img/avatar.svg",
       isPro: true
     },
@@ -159,7 +225,7 @@ location: {
     bedrooms: 2,
     goods: ["Wi-Fi", "Kitchen", "Bike rental", "Coffee maker"],
     host: {
-      name: "Anna de Vries",
+      name: "Maria Julianna",
       avatarUrl: "/img/avatar-angelina.jpg",
       isPro: false
     },
@@ -258,7 +324,7 @@ location: {
     bedrooms: 2,
     goods: ["Wi-Fi", "Kitchen", "Balcony", "Washing machine", "TV"],
     host: {
-      name: "Klaus Müller",
+      name: "Jonathan Müller",
       avatarUrl: "/img/avatar.svg",
       isPro: true
     },
